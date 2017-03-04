@@ -31,6 +31,7 @@
            <div class="row">
         <div class="span8">
           <h1>Time-based One-time Password Algorithm</h1>
+          <p>Fork of the code at <a href="http://blog.tinisles.com/2011/10/google-authenticator-one-time-password-algorithm-in-javascript">http://blog.tinisles.com/2011/10/google-authenticator-one-time-password-algorithm-in-javascript</a></p>
             <p>This page contains a javascript implementation of the <em>Time-based One-time Password Algorithm</em> used by Google Authenticator and described in the <a href="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.html">TOTP RFC Draft</a>.</p>
             
             <p>Install Google Authenticator on your smartphone: <a href="http://itunes.apple.com/au/app/google-authenticator/id388497605?mt=8">iOS</a>, <a href="https://market.android.com/details?id=com.google.android.apps.authenticator&hl=en">Android</a>, <a href="http://m.google.com/authenticator">Blackberry</a>.  As the TOTP is an open standard you can use this app to create one-time passwords for your own application.  You add an account plus secret by scanning a QR code (more info on the <a href="http://code.google.com/p/google-authenticator/wiki/KeyUriFormat">google code wiki</a>).  The javascript below implements the algorithm the smartphone app uses to generate the OTP - you would use this same algorithm <em>server-side</em> to verify an OTP.</p>
