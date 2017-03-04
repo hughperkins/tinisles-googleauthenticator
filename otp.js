@@ -72,7 +72,6 @@ function timer()
 }
 
     $(function () {
-        alert('start');
         updateOtp();
 
         $('#update').click(function (event) {
